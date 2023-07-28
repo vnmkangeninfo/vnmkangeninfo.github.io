@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- title css -->
+    <title>Pin Code System</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+   <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+
+<!------------------------------------------- pop up section -------------------------------------->
+ <div class="main_pop_up">
+  <div id="pin-popup" class="popup">
+    <div class="popup-content">
+      <h2>Enter the PIN Code</h2>
+      <input type="password" id="pin-input" maxlength="4" />
+      <button onclick="checkPin()">Submit</button>
+    </div>
+  </div>
+
+  <div id="success-popup" class="popup">
+    <div class="popup-content">
+      <h2>Thank You!</h2>
+      <p>You entered the correct pin and you have got the access</p>
+      <button onclick="showMainContent()">Continue</button>
+    </div>
+  </div>
+ </div>
+
+
+
+  <div class="main_content" id="main-content">
+    <div class="full_bg">
+        <div class="wrapper">
+           <div class="intro_content">
+            <h1>Welcome!<span class="dot">.</span></h1>
+           </div>
+            
+
+          
+
+           <div class="container">
+          
+            <div class="p-2 pt-5  mb-5">
+              <!-- Bordered tabs-->
+              <ul id="myTab1" role="tablist" class="nav nav-tabs nav-pills with-arrow flex-column flex-sm-row text-center">
+                <li class="nav-item flex-sm-fill">
+                  <a id="home1-tab" data-toggle="tab" href="#home1" role="tab" aria-controls="home1" aria-selected="true" class="nav-link  font-weight-bold mr-sm-3 rounded-0 border active">Tab 1</a>
+                </li>
+                <li class="nav-item flex-sm-fill">
+                  <a id="profile1-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile1" aria-selected="false" class="nav-link  font-weight-bold mr-sm-3 rounded-0 border">Tab 2</a>
+                </li>
+                <li class="nav-item flex-sm-fill">
+                  <a id="contact1-tab" data-toggle="tab" href="#contact1" role="tab" aria-controls="contact1" aria-selected="false" class="nav-link  font-weight-bold rounded-0 border">Tab 3</a>
+                </li>
+                <li class="nav-item flex-sm-fill">
+                  <a id="blog1-tab" data-toggle="tab" href="#blog1" role="tab" aria-controls="blog1" aria-selected="false" class="nav-link  font-weight-bold rounded-0 border">Tab 4</a>
+                </li>
+              </ul>
+
+<!---------------------------------------------------------------------- tab section start -------------------->
+
+              <div id="myTab1Content" class="tab-content">
+                <!---------------------------------------- first tab -->
+                <div id="home1" role="tabpanel" aria-labelledby="home1" class="tab-pane fade py-5 show active">
+                    <div class="tab-contents">
+                        <h4>WHY KANGEN WATER</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                               <div class="first_box">
+                                <div class="first_box_content">
+                                    <h6>The importance of water</h6>
+                                    <a target="_blank" href="https://youtu.be/e_tFJ9wj7Ig">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>Electrolized alkaline water and why Enagic is the best</h6>
+                                    <a target="_blank" href="https://youtu.be/qLym0XsHfsw">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>Good water vs not so good water</h6>
+                                    <a target="_blank" href="https://youtu.be/1hjdio0yxP4">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+        
+                               </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="first_box" style="padding-bottom:80px">
+                                    <div class="first_box_content">
+                                        <h6>Dr. Michael Donaldson videos</h6>
+                                        <p>The science of electrolized alkaline water or Kangen water</p>
+                                        <a target="_blank" href="https://fb.watch/lWCnj3GqaD/">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+                                    <div class="first_box_content">
+                                        <h6>Blood analysis drinking Kangen water</h6>
+                                        <a target="_blank" href="https://youtu.be/agKojknT-SA">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                                    </div>
+            
+                                   </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+    
+    <!------------------------------------------------------------------------- second tab ------------------------------------->
+                <div id="profile1" role="tabpanel" aria-labelledby="profile1" class="tab-pane fade py-5">
+                    <div class="tab-contents">
+                        <h4>ELECTROLYZED REDUCED WATER RESOURCES</h4>
+                        <div class="row">
+                           <div class="col-md-6">
+                               <div class="first_box">
+                                <div class="first_box_content">
+                                    <h6>OXIDATIVE STRESS AND OTHERS</h6>
+                                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/21621588/">https://pubmed.ncbi.nlm.nih.gov/21621588/</a>
+                                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/28217294/">https://pubmed.ncbi.nlm.nih.gov/28217294/</a>
+                                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26739257/">https://pubmed.ncbi.nlm.nih.gov/26739257/</a>
+                                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/22146674/">https://pubmed.ncbi.nlm.nih.gov/22146674/</a>
+                                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/27643933/">https://pubmed.ncbi.nlm.nih.gov/27643933/</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26271894">https://www.ncbi.nlm.nih.gov/pubmed/26271894</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>CATARACT</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27606690">https://www.ncbi.nlm.nih.gov/pubmed/27606690</a>
+                                </div>
+    
+    
+                                <div class="first_box_content">
+                                    <h6>CELLULAR REDOX STATE</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27598129">https://www.ncbi.nlm.nih.gov/pubmed/27598129</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>METABOLIC SYNDROME - OBESITY</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20216947">https://www.ncbi.nlm.nih.gov/pubmed/20216947</a>
+                                </div>
+                               </div>
+    
+    
+                               
+                            </div>
+                            <div class="col-md-6">
+                              <div class="download_pdf">
+                                <h6>View for more inquiry
+                                  <a target="_blank" href="assets/files/enagicstudies-alkaline-water-pubs.pdf" download class="download-button">
+                                    <i class="fas fa-download"></i> Download File</a>
+                                </h6>
+                              </div>
+                                <div class="first_box" style="padding-bottom:25px">
+                                    <div class="first_box_content">
+                                        <h6>RADIOTHERAPY (LIVER TUMORS & OTHERS)</h6>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22146004">https://www.ncbi.nlm.nih.gov/pubmed22146004</a>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24155664">https://www.ncbi.nlm.nih.gov/pubmed/24155664</a>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22537465">https://www.ncbi.nlm.nih.gov/pubmed/22537465</a>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/21275114">https://www.ncbi.nlm.nih.gov/pubmed/21275114</a>
+                                    </div>
+                                    <div class="first_box_content">
+                                        <h6>CHEMOTHERAPY</h6>
+                                        <a target="_blank" href="http://www.ajol.info/index.php/tipr/article/view/164283">http://www.ajol.info/index.php/tipr/article/view/164283</a>
+                                    </div>
+                                    <div class="first_box_content">
+                                        <h6>AUTISM</h6>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22846252">https://www.ncbi.nlm.nih.gov/pubmed/22846252</a>
+                                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23047522">https://www.ncbi.nlm.nih.gov/pubmed/23047522</a>
+                                        <a target="_blank" href="http://www.europeanreview.org/wp/wp-content/uploads/1469.pdf">http://www.europeanreview.org/wp/wp-content/uploads/1469.pdf</a>
+                                    </div>
+                                    <div class="first_box_content">
+                                        <h6>TELOMERE SHORTENING IN CANCER CELLS</h6>
+                                        <a target="_blank" href="https://link.springer.com/chapter/10.1007/0-306-46869-7_62">https://link.springer.com/chapter/10.1007/0-306-46869-7_62</a>
+                                    </div>
+            
+                                   </div>
+                            </div>
+                        </div>
+    
+    
+    
+    
+                        <div class="row">
+
+
+                          <div class="col-md-6">
+                            <div class="first_box" style="padding-bottom:25px">
+                                <div class="first_box_content">
+                                    <h6>LEUKEMIA</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19202298">https://www.ncbi.nlm.nih.gov/pubmed/19202298</a>
+                                    <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-94-017-0726-8_67">https://link.springer.com/chapter/10.1007/978-94-017-0726-8_67</a>
+
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>TREATING ACNE</h6>
+                                    <a target="_blank" href="http://www.researchgate.net/publication/237566858_The_Efficacy_and_Tolerability_of_Electrolyzed_Oxydized_Water_in_Treating_Mild_to_Moderate_Acne">http://www.researchgate.net/publication/237566858_The_Efficacy_and_Tolerability_of_Electrolyzed_Oxydized_Water_in_Treating_Mild_to_Moderate_Acne</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>AUTISM</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22846252">https://www.ncbi.nlm.nih.gov/pubmed/22846252</a>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23047522">https://www.ncbi.nlm.nih.gov/pubmed/23047522</a>
+                                    <a target="_blank" href="http://www.europeanreview.org/wp/wp-content/uploads/1469.pdf">http://www.europeanreview.org/wp/wp-content/uploads/1469.pdf</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>TELOMERE SHORTENING IN CANCER CELLS</h6>
+                                    <a target="_blank" href="https://link.springer.com/chapter/10.1007/0-306-46869-7_62">https://link.springer.com/chapter/10.1007/0-306-46869-7_62</a>
+                                </div>
+        
+                               </div>
+                        </div>
+
+
+                           <div class="col-md-6">
+                               <div class="first_box">
+                                <div class="first_box_content">
+                                    <h6>SPORTS MEDICINE</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/25525953">https://www.ncbi.nlm.nih.gov/pubmed/25525953</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>CARDIOVASCULAR & METABOLIC DISEASES</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29763888">https://www.ncbi.nlm.nih.gov/pubmed/29763888</a>
+                                </div>
+    
+    
+                                <div class="first_box_content">
+                                    <h6>PULMONARY DISEASE</h6>
+                                    <a class="link_small" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S1000194811600312">http://www.sciencedirect.com/science/article/pii/S1000194811600312</a>
+                                </div>
+                                
+                                <div class="first_box_content">
+                                    <h6>CELLULAR SENESCENCE IN ENDOTHELIAL CELLS</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/pubmed/27477846">https://www.ncbi.nlm.nih.gov/pubmed/pubmed/27477846</a>
+                                </div>
+                                <div class="first_box_content">
+                                    <h6>OXIDATIVE STRESS IN SPACE FLIGHT</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20851533">https://www.ncbi.nlm.nih.gov/pubmed/20851533</a>
+                                </div>
+        
+                               </div>
+                            </div>
+                           
+                        </div>
+
+                        <div class="row my-4">
+                          <div class="col-md-12">
+                            <div class="first_box_content">
+                              <h6>TREATING ACNE</h6>
+                              <a target="_blank" href="http://www.researchgate.net/publication/237566858_The_Efficacy_and_Tolerability_of_Electrolyzed_Oxydized_Water_in_Treating_Mild_to_Moderate_Acne">Learn More</a>
+                              <p>Conclusion “The EOW [electroylzed oxidized water] device and its delivery system to the
+                                skin is an alternative modality for treating acne. Although it has never been studied
+                                specifically for acne, scientific evidence from other applications makes this device a
+                                practical and logical consideration.”
+                                Effects of hydrogen-rich water bath on visceral fat and skin blotch, with boiling-resistant
+                                hydrogen bubbles</p>
+                                <hr style="border-bottom:1px solid #fff;">
+                          </div>
+                          </div>
+                        </div>
+
+
+                        <div class="row">
+                          <div class="col-md-6">
+                              <div class="first_box">
+                                <div class="first_box_content">
+                                  <h6>OXIDATIVE STRESS IN SPACE FLIGHT</h6>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20851533">https://www.ncbi.nlm.nih.gov/pubmed/20851533</a>
+                              </div>
+                                <div class="first_box_content">
+                                  <h6>LDL-CHOLESTEROL</h6>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/23610159">https://www.ncbi.nlm.nih.gov/pubmed/23610159</a>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="first_box">
+                              <div class="first_box_content">
+                                <h6>DIABETES</h6>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19083400">https://www.ncbi.nlm.nih.gov/pubmed/19083400</a>
+                                <a target="_blank" href="https://www.pagepress.org/journals/index.php/ams/article/view/2940">https://www.pagepress.org/journals/index.php/ams/article/view/2940</a>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/19003114">https://www.ncbi.nlm.nih.gov/pubmed/19003114</a>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/21063772">https://www.ncbi.nlm.nih.gov/pubmed/21063772</a>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16945392">https://www.ncbi.nlm.nih.gov/pubmed/16945392</a>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                        <div class="row my-4">
+                          <div class="col-md-12">
+                            <div class="first_box_content">
+                              <p>The and-oxidative waters stimulated not only the glucose uptake of rat myotube L6 cells,
+                                but also the secretion of insulin from a pancreatic beta cell line HIT-T15. The
+                                anti-oxidative waters improved the damage in the sugar tolerance test of type 2 diabetes
+                                model mice (db/db mice).</p>
+                                <p>In the type 2 diabetes, it has become clear that reactive oxygen species (ROS) cause
+                                  reduction of glucose uptake by inhibiting the insulin-signaling pathway in muscle cells
+                                  and adipocytes.</p>
+                                <hr style="border-bottom:1px solid #fff;">
+                          </div>
+                          </div>
+                        </div>
+
+
+
+
+
+                        <div class="row my-4">
+                          <div class="col-md-12">
+                            <div class="first_box_content">
+                              <h6>Type 1 Diabetes Mellitus:</h6>
+                              <a target="_blank" href="https://www.ncbi.nlm.nih.gov/m/pubmed/19003114/?fbclid=IwAR0JFPYGFwufy3m215nZDmOsO_E_sdpdXTP5yUYs7uI7JH6I6xbDTfzj_DM">Learn More</a>
+                              <p>Here we report that RW strongly protects pancreatic β cells from damage induced by
+                                the diabetogenic agent alloxan, suggesting that RW maybe effective in preventing
+                                alloxan-induced type-1 diabetes. These results suggest that electrolyzed reduced water can prevent apoptosis of
+                                pancreatic β-cells and the development of symptoms in type 1 diabetes</p>
+                                <p>Our study demonstrates that H2 exerts metabolic effects similar to those of insulin and
+                                  may be a novel therapeutic alternative to insulin in type 1 diabetes mellitus that can be
+                                  administered orally.</p>
+
+                                <hr style="border-bottom:1px solid #fff;">
+                          </div>
+                          </div>
+                        </div>
+
+
+
+
+
+                        <div class="row">
+                          <div class="col-md-6">
+                              <div class="first_box">
+                                <div class="first_box_content">
+                                  <h6>FIBROSARCOMA</h6>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22695858">https://www.ncbi.nlm.nih.gov/pubmed/22695858</a>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3386386">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3386386</a>
+                              </div>
+                                <div class="first_box_content">
+                                  <h6>REFLUX DISEASE</h6>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22844861">https://www.ncbi.nlm.nih.gov/pubmed/22844861</a>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29512923">https://www.ncbi.nlm.nih.gov/pubmed/29512923</a>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/24589018">https://www.ncbi.nlm.nih.gov/pubmed/24589018</a>
+                              </div>
+                              <div class="first_box_content">
+                                <h6>IRRITABLE BOWEL SYNDROME</h6>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29849734">https://www.ncbi.nlm.nih.gov/pubmed/29849734</a>
+                                </div>
+
+                              </div>
+                          </div>
+
+
+
+
+
+                          <div class="col-md-6">
+                            <div class="first_box">
+                              <div class="first_box_content">
+                                <h6>HAEMODIALYSIS</h6>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20190245">https://www.ncbi.nlm.nih.gov/pubmed/20190245</a>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/12846769">https://www.ncbi.nlm.nih.gov/pubmed/12846769</a>
+                                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/16760903">https://www.ncbi.nlm.nih.gov/pubmed/16760903</a>
+                                     <div class="div">
+                                     <br>
+                                     </div>
+                                <div class="first_box_content">
+                                  <h6>NEUROLOGICAL DISORDERS</h6>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/27281176">https://www.ncbi.nlm.nih.gov/pubmed/27281176</a>
+                                  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/26271894">https://www.ncbi.nlm.nih.gov/pubmed/26271894</a>
+                                  </div>
+
+                                  <div class="first_box_content">
+                                    <h6>FIBROSARCOMA</h6>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22695858">https://www.ncbi.nlm.nih.gov/pubmed/22695858</a>
+                                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3386386">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3386386</a>
+                                </div>
+
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                     <div class="row">
+                      <div class="col-md-6">
+                        <div class="first_box">
+                          <div class="first_box_content">
+                            <h6>MENTAL HEALTH</h6>
+                            <p>General</p>
+                            <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/21621588/?fbclid=IwAR1i_mZ2WibuiDyGWBeOWyDhuBWkrcqxpjkN5JqpYbnovVdMb9dCM2htUMM">https://pubmed.ncbi.nlm.nih.gov/21621588/?fbclid=IwAR1i_mZ2WibuiDyGWBeOWyDhuBWkrcqxpjkN5JqpYbnovVdMb9dCM2htUMM</a>
+
+                          </div>
+                          <div class="first_box_content">
+                            <h6>Anxiety</h6>
+                            <a target="_blank" href="https://drive.google.com/file/d/1XGy1IugFRGANrp8LnV_m1vfmgRTpYWVn/view?fbclid=IwAR1F__m-UsZBtrVbPKlzaSsueTBMyF_zoDHRgBGnI5MC9dJjkqI6Tb3uJhk">https://drive.google.com/file/d/1XGy1IugFRGANrp8LnV_m1vfmgRTpYWVn/view?fbclid=IwAR1F__m-UsZBtrVbPKlzaSsueTBMyF_zoDHRgBGnI5MC9dJjkqI6Tb3uJhk</a>
+                          </div>
+                          <div class="first_box_content">
+                            <h6>THYROID</h6>
+                            <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/27051079/?fbclid=IwAR1JZx0bHAXhCERSJVroYPNUxKLNP_hcZE93txVFHHYzp9ucm8dXJLJl1p4">https://pubmed.ncbi.nlm.nih.gov/27051079/?fbclid=IwAR1JZx0bHAXhCERSJVroYPNUxKLNP_hcZE93txVFHHYzp9ucm8dXJLJl1p4</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="first_box">
+                          <div class="first_box_content">
+                            <h6>Stress</h6>
+                            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5575246/?fbclid=IwAR3odt1LyK7kUg7siV--6i_YFhoio3SE42vtxpCEqNIDdttGnNxX0v7DeaU">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5575246/?fbclid=IwAR3odt1LyK7kUg7siV--6i_YFhoio3SE42vtxpCEqNIDdttGnNxX0v7DeaU</a>
+                          </div>
+                          <div class="first_box_content">
+                            <h6>Depression</h6>
+                            <a target="_blank" href="https://www.nature.com/articles/srep23742?fbclid=IwAR2qvCuyfY91VuHp9ioaB7z-8_GOAA-DWJNrcPW27hLFD4Ca6w_9AFfyU14">https://www.nature.com/articles/srep23742?fbclid=IwAR2qvCuyfY91VuHp9ioaB7z-8_GOAA-DWJNrcPW27hLFD4Ca6w_9AFfyU14</a>
+                            <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/27026206/?fbclid=IwAR0cK6EzE9hnN509MFDgQDaMhqn9OH29Kh4JoXnfOFUYQJyXgg1xiGuFPXQ">https://pubmed.ncbi.nlm.nih.gov/27026206/?fbclid=IwAR0cK6EzE9hnN509MFDgQDaMhqn9OH29Kh4JoXnfOFUYQJyXgg1xiGuFPXQ</a>
+                          </div>
+                          <div class="first_box_content">
+                            <h6>Bipolar/schizophrenia</h6>
+                            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3680337/?fbclid=IwAR0RqGOXcrv5vMR1a0yvpmiEO-h21yQy7Ea2Cj1OZzA9Fq8rvDJPNJDAVOk">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3680337/?fbclid=IwAR0RqGOXcrv5vMR1a0yvpmiEO-h21yQy7Ea2Cj1OZzA9Fq8rvDJPNJDAVOk</a>
+
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+
+
+
+
+
+
+                     <div class="row my-4">
+                      <div class="col-md-12">
+                        <div class="first_box_content">
+                          <h6>AMYOTROPHIC LATERAL SCLEROSIS (ALS)</h6>
+                          <p>The role of oxidative stress in degeneration of the neuromuscular junction in
+                            amyotrophic lateral sclerosis</p>
+                            <p>“Amyotrophic lateral sclerosis (ALS) is characterized by the progressive loss of
+                              motoneurons and degradation of the neuromuscular junctions (NMJ). Consistent with the
+                              dying-back hypothesis of motoneuron degeneration the decline in synaptic function
+                              initiates from the presynaptic terminals in ALS. Oxidative stress is a major contributory
+                              factor to ALS pathology and affects the presynaptic transmitter releasing machinery.
+                              Indeed, in ALS mouse models nerve terminals are sensitive to reactive oxygen species
+                              (ROS) suggesting that oxidative stress, along with compromised mitochondria and
+                              increased intracellular Ca(2+) amplifies the presynaptic decline in NMJ. This initial
+                              dysfunction is followed by a neurodegeneration induced by inflammatory agents and loss
+                              of trophic support. To develop effective therapeutic approaches against ALS, it is
+                              important to identify the mechanisms underlying the initial pathological events. Given the
+                              role of oxidative stress in ALS, targeted antioxidant treatments could be a promising
+                              therapeutic approach. However, the complex nature of ALS and failure of monotherapies
+                              suggest that an antioxidant therapy should be accompanied by anti-inflammatory
+                              interventions to enhance the restoration of the redox balance.”
+                              https://pubmed.ncbi.nlm.nih.gov/24860432/
+                              Treatment with hydrogen-rich saline delays disease progression in a mouse model of
+                              amyotrophic lateral sclerosis
+                              “Treatment of mutant SOD1 G93A mice with hydrogen-rich saline (HRS, i.p.)
+                              significantly delayed disease onset and prolonged survival, and attenuated loss of motor
+                              neurons and suppressed microglial and glial activation. Treatment of mutant SOD1
+                              G93A mice with HRS inhibited the release of mitochondrial apoptogenic factors and the
+                              subsequent activation of downstream caspase-3. Furthermore, treatment of mutant
+                              SOD1 G93A mice with HRS reduced levels of protein carbonyl and 3-nitrotyrosine, and
+                              suppressed formation of reactive oxygen species (ROS), peroxynitrite, and
+                              malondialdehyde. Treatment of mutant SOD1 G93A mice with HRS preserved
+                              mitochondrial function, marked by restored activities of Complex I and IV, reduced
+                              mitochondrial ROS formation and enhanced mitochondrial adenosine triphosphate
+                              synthesis. In conclusion, hydrogen molecule may be neuroprotective against ALS,
+                              possibly through abating oxidative and nitrosative stress and preserving mitochondrial
+                              function.”</p>
+                              
+                              <a target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F26537817%2F%3Ffbclid%3DIwAR1ijBTXM-fYjU9GsPiT_dtEsue5ysk2CE0uvh5qVH_a2FY12Blm7gSqVq8&h=AT03tbthLD75WBBnogCVwDSAsGph8S1dD2vwiDWh490XtlL7AwTOlo-548kC6anGgv1MZ4FMcZXUyZvAtAYjnBqI75rM3UZGcDk4a-KHzDDIwMZAuhXxFRyQqiY-M31NzTB3e3fTiA&__tn__=-UK-R&c[0]=AT1E4JeVoo7_yW745eX29Akhpy1XoJA2RhRU3OHudOQ5WDUrl9Iakr5HygwDhimm_BE5CaZ3fOyO-Jg7q_gAzYQxU1knsRo-fbLKhXOJPuHOe_bj2fvbD5iJ8E3elkknJct9kL79bJqdJMLt5ofVcSQ2qXTw6bhaP56F8sPNo39mwF96AXzhSNspPVEpxlIBHcFYpA">Learn More</a>
+
+                            <hr style="border-bottom:1px solid #fff;">
+                      </div>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="first_box">
+                          <div class="first_box_content">
+                            <h6>ERW + ATHLETES</h6>
+                            <a target="_blank" href="https://medicalgasresearch.biomedcentral.com/articles/10.1186/2045-9912-2-12?fbclid=IwAR3YISKZ8p_aEp_oSEzTUOwxxaLgJVxfpIBk1PxIa6JH5_Wuegsi8LvbQ3o">https://medicalgasresearch.biomedcentral.com/articles/10.1186/2045-9912-2-12?fbclid=IwAR3YISKZ8p_aEp_oSEzTUOwxxaLgJVxfpIBk1PxIa6JH5_Wuegsi8LvbQ3o</a>
+                            <h6>Conclusion</h6>
+                            <p>Adequate hydration with hydrogen-rich water pre-exercise reduced blood lactate levels
+                              and improved exercise-induced decline of muscle function.
+                              <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6352569/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6352569/</a>
+                              This finding indicated that drinking hydrogen-rich water for a long period of time may
+                              plays an important role in enhancing the richness and diversity of the gut flora.
+                              http://www.medgasres.com/article.asp?issn=2045-9912;year=2020;volume=10;issue=1;
+                              spage=21;epage=26;aulast=Dobashi
+                              A novel finding from this study was that changes in the BAP/d-ROMs relative to the
+                              baseline, as an index of systemic antioxidant potential, were decreased in PW trial but
+                              maintained by intake of HW during the 3 consecutive days of strenuous exercise.
+                              BAP: Biological antioxidant potential; d-ROMs: diacron-reactive oxygen metabolites;</p>
+                              <hr style="border-bottom:1px solid #fff;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+                     </div>
+                </div>
+    
+    
+   <!--------------------------------------------------------------- third section  -------------------------------------->
+                <div id="contact1" role="tabpanel" aria-labelledby="contact1" class="tab-pane fade py-5">
+
+                <div class="tab-contents">
+                  <h4>TESTIMONIALS</h4>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="first_box">
+                        <div class="first_box_content">
+                          <h6>Enagic water may change your life</h6>
+                          <a target="_blank" href="https://youtu.be/1hjdio0yxP4">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+
+
+
+                </div>
+
+<!----------------------------------------------------- four section ---------------------------------------------------------------->
+                <div id="blog1" role="tabpanel" aria-labelledby="blog1" class="tab-pane fade py-5">
+
+                  <div class="tab-contents">
+                    <h4>THE COMPANY, PRODUCTS AND OPPORTUNITY</h4>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="first_box">
+                          <div class="first_box_content">
+                            <h6>Enagic product line comparison</h6>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=qoAskVVp-gE">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                          </div>
+                          <div class="first_box_content">
+                            <h6>The business opportunity</h6>
+                            <a target="_blank" href="https://youtu.be/yg-7PgbVhis">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                  </div>
+
+
+
+
+              </div>
+              <!-- End bordered tabs -->
+            </div>
+          
+          
+           
+          </div> 
+
+
+
+
+
+
+            <!-- <div class="icons">
+              <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-twitter"></i></a>
+              <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            </div> -->
+           </div>
+    </div>
+  </div>
+  </div>
+
+
+  <footer>
+    <p class="text-center">Copyright © 2023 websites | All Rights Reserved</p>
+  </footer>
+
+<!-- main js -->
+
+<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<!-- //   font awesome js -->
+<script src="https://kit.fontawesome.com/60f297cea1.js" crossorigin="anonymous"></script>
+
+
+<script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>

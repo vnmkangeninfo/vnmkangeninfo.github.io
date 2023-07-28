@@ -1,0 +1,297 @@
+
+
+/*------------------------------------------------------------- common css------------------------------------------------------------------ */
+/* font css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #00091B;
+    color:#fff;
+}
+
+/* pop up pin css */
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .popup-content {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color:#000;
+      transform: translate(-50%, -50%);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    input#pin-input {
+    padding: 5px;
+    outline: 0;
+    box-shadow: none;
+   }
+  .popup-content p{
+   color:#000000;
+   }
+
+    .popup-content h2 {
+      font-size: 21px;
+      font-weight: 600;
+    }
+
+    .popup-content button {
+      margin-top: 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .popup-content button:hover {
+      background-color: #0056b3;
+    }
+
+    .main_content {
+      display: none;
+      margin-top: 20px;
+     
+    }
+    .intro_content{
+      text-align: center;
+    }
+
+    .main_content h1 {
+      color: #007BFF;
+    }
+
+    .main_content p {
+      color: #ffffff;
+    }
+
+
+    .download-button {
+      display: inline-block;
+      padding: 8px 10px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-weight: 500;
+      font-size: 14px;
+  }
+    .download_pdf a:hover {
+
+      text-decoration: none;
+    }
+
+    .download-button:hover {
+      background-color: #0056b3;
+      color: #fff;
+    }
+  
+    .download-button i {
+      margin-right: 5px;
+    }
+
+
+
+.full_bg{
+    background: #00091B;
+     color: #fff;
+}
+
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dot {
+  color: #4FEBFE;
+}
+
+p {
+  margin: 18px;
+  font-weight: 500;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rounded tabs */
+
+@media (min-width: 576px) {
+    .rounded-nav {
+      border-radius: 50rem !important;
+    }
+  }
+  
+@media (max-width: 991px) {
+  .first_box a {
+    word-wrap: break-word;
+}
+  }
+  
+  @media (min-width: 576px) {
+    .rounded-nav .nav-link {
+      border-radius: 50rem !important;
+    }
+    .first_box a {
+        word-wrap: break-word;
+    }
+  }
+  
+  /* With arrow tabs */
+  
+  .with-arrow .nav-link.active {
+    position: relative;
+  }
+  
+  .with-arrow .nav-link.active::after {
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #2b90d9;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+  
+  /* lined tabs */
+  
+  .lined .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .lined .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .lined .nav-link.active {
+    background: none;
+    color: #555;
+    border-color: #2b90d9;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+ 
+  .nav-pills .nav-link {
+    color: #ffffff;
+  }
+  .text-uppercase {
+    letter-spacing: 0.1em;
+  }
+
+
+/* handcode css */
+.first_box {
+    box-shadow: rgb(255 255 255 / 18%) 0px 5px 15px 0px;
+    padding: 20px 30px;
+    margin-top: 20px;
+    }
+    .first_box a {
+    text-decoration: none;
+    font-size: 15px;
+    }
+    .first_box i{
+    padding-left:10px;
+    }
+    .first_box_content h6{
+    font-size: 21px;
+    }
+    .first_box_content p{
+    color:rgba(235, 235, 235, 0.745);
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    }
+    .first_box_content {
+    margin-bottom: 20px;
+    }
+    .tab-contents h4 {
+        display: inline-block;
+        border-bottom: 2px solid #0d6efd;
+        padding-bottom: 7px;
+    }
+
+/* 
+.icons {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+  
+} */
+@media (max-width: 991px) {
+  .tab-contents h4{
+    font-size:19px;
+  }
+  .intro_content h1{
+    font-size: 35px;
+  }
+    .first_box {
+    padding: 20px 15px;
+}
+}
